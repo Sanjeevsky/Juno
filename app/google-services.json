@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "644752393798",
+    "firebase_url": "https://juno-51b06.firebaseio.com",
+    "project_id": "juno-51b06",
+    "storage_bucket": "juno-51b06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644752393798:android:51f625022d081164",
+        "android_client_info": {
+          "package_name": "com.example.sanjeev.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644752393798-7f4hrn4bfh68rv1rnhnoctdn8456u729.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sanjeev.demo",
+            "certificate_hash": "6c15b4809f99650458229b517581027bf0475f80"
+          }
+        },
+        {
+          "client_id": "644752393798-v7305ut1vvqkcdlejpkfskbca2fo65gf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sanjeev.demo",
+            "certificate_hash": "6bda3b61d47b475956745c6209d5bb38b042884f"
+          }
+        },
+        {
+          "client_id": "644752393798-qgl8rvms02ggobdv82061u8ijn25lvmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjiI3HI2pRunpY0XTkOZsWfjW_RY3tIZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644752393798-qgl8rvms02ggobdv82061u8ijn25lvmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

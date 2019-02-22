@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login_wall">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/login_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_id"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle"
+        android:text="login"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/need_new_account_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_id"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle"
+        android:text="Need New Account"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="340dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rectangle2"
+        android:drawableLeft="@drawable/round_person_black_18dp"
+        android:hint="@string/enter_your_email_id"
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <EditText
+        android:id="@+id/password_id"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/user_id"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle2"
+        android:drawableLeft="@drawable/lock"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:paddingTop="4dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>

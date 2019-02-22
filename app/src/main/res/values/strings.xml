@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_your_email_id">Enter Your Email id</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="gateway_of_india">GATEWAY OF INDIA</string>
+    <string name="india_gate">INDIA GATE</string>
+    <string name="ashoka_pillar">ASHOKA PILLAR</string>
+    <string name="sanjeev_kumar">SANJEEV KUMAR</string>
+    <string name="sanjeevworld007_gmail_com">sanjeevworld007.gmail_com</string>
+    <string name="subheader">subheader</string>
+    <string name="user_image">user image</string>
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_closed">Close Navigation Drawer</string>
+
+</resources>

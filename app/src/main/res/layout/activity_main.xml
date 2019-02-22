@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_wall"
+    android:layout_width="match_parent"
+    >
+
+    <Button
+        android:id="@+id/login_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="341dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/signup_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_main"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rectangle"
+        android:text="Signup"
+        android:textColor="@android:color/white"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/phone_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_main"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle"
+        android:text="Phone Login"
+        android:textColor="@android:color/white"
+        android:textSize="35dp" />
+</RelativeLayout>

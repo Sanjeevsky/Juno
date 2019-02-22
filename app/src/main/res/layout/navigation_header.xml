@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@drawable/header">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:contentDescription="@string/user_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ironman"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/userImage_id"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/sanjeev_kumar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:id="@+id/userName_id"/>
+
+
+</LinearLayout>
