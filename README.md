@@ -21,7 +21,8 @@ It Consist of 10 Question Related To Current Affairs.
 
 
 # ScreenShots 
-<img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/1.png" height=500px padding=10px>
+
+<img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/1.png" height=500px margin=5px>
 <img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/2.png" height=500px>
 <img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/3.png" height=500px>
 <img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/4.png" height=500px>
