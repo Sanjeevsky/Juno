@@ -12,20 +12,16 @@ It Consist of 10 Question Related To Current Affairs.
 <li>CircularImageView Dependency</li>
 </ul>
 
-# ScreenShots
-  <div class="py-5">
-    <div class="container">
-      <div class="row hidden-md-up">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-block">
-              <img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/1.png" height=500px>
-            </div>
-          </div>
-        </div>
-        
+# Description
+<h3>Android Studio:</h3> It is Used To Develope The Application.
+<h3>Firebase:</h3> It is Used To Prove Database For Score Storage and Firebase Storage System to Store The Profile Pics  of The Users .
+<h3>Recycler View:</h3>Firebase RecyclerView is Used To Render Score Data Into Application.
+<h3>ImageCropper</h3>It is Used To Crop and Refactor Profile Image Before Applying To Profile.
 
-<img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/1.png" height=500px>
+
+
+# ScreenShots 
+<img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/1.png" height=500px padding=10px>
 <img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/2.png" height=500px>
 <img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/3.png" height=500px>
 <img src="https://github.com/Sanjeevsky/Juno/raw/master/demo/4.png" height=500px>
