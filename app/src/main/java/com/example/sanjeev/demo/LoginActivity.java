@@ -49,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Intent ques1Intent=new Intent(LoginActivity.this,ques1_activity.class);
                                 startActivity(ques1Intent);
                                 loading.dismiss();
+                                finish();
 
                             }
                             else
@@ -72,6 +73,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent SignupIntent=new Intent(LoginActivity.this,SignupActivity.class);
                 startActivity(SignupIntent);
+                finish();
             }
         });
     }

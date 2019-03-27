@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
                     startActivity(loginIntent);
+                    finish();
                 }
             });
             signup.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     Intent signupIntent = new Intent(MainActivity.this, SignupActivity.class);
                     startActivity(signupIntent);
+                    finish();
                 }
             });
             phoneLogin.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     Intent phoneIntent = new Intent(MainActivity.this, PhoneLoginActivity.class);
                     startActivity(phoneIntent);
+                    finish();
                 }
             });
 
@@ -77,11 +80,11 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     if (which == 0) {
-                        moveTaskToBack(true);
-                        android.os.Process.killProcess(android.os.Process.myPid());
-                        System.exit(1);
+//                        moveTaskToBack(true);
+//                        android.os.Process.killProcess(android.os.Process.myPid());
+//                        System.exit(1);
                        //finish();
-
+                        finish();
                     }
                     if (which == 1) {
                         Toast.makeText(MainActivity.this,"Back Button Pressed",Toast.LENGTH_LONG).show();
@@ -93,5 +96,11 @@ public class MainActivity extends AppCompatActivity {
             builder.show();
 
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        System.runFinalizersOnExit(true);
     }
 }

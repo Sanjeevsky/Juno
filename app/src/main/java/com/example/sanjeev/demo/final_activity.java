@@ -107,10 +107,10 @@ private Button ReplayButton,ExitButton;
                 public void onClick(DialogInterface dialog, int which) {
                     if (which == 0) {
                         mAuth.signOut();
-                        Intent mainIntent = new Intent(final_activity.this, MainActivity.class);
-                        mainIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                        startActivity(mainIntent);
-
+//                        Intent mainIntent = new Intent(final_activity.this, MainActivity.class);
+//                        mainIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+//                        startActivity(mainIntent);
+                            onDestroy();
                     }
                     if (which == 1) {
                         Toast.makeText(final_activity.this,"Back Button Pressed",Toast.LENGTH_LONG).show();
@@ -122,5 +122,10 @@ private Button ReplayButton,ExitButton;
             builder.show();
 
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
     }
 }

@@ -198,6 +198,7 @@ public class ques1_activity extends AppCompatActivity implements NavigationView.
                         mAuth.signOut();
                         Intent mainIntent = new Intent(ques1_activity.this, MainActivity.class);
                         startActivity(mainIntent);
+                        finish();
 
                     }
                     if (which == 1) {

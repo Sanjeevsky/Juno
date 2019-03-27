@@ -13,5 +13,10 @@
     <string name="user_image">user image</string>
     <string name="navigation_open">Open Navigation Drawer</string>
     <string name="navigation_closed">Close Navigation Drawer</string>
+    <string name="you_have_scored">You Have Scored</string>
+    <string name="_5">5</string>
+    <string name="out_of_10">OUT OF 10</string>
+    <string name="replay">Replay</string>
+    <string name="exit">exit</string>
 
 </resources>

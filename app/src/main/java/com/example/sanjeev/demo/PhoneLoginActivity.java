@@ -128,6 +128,7 @@ public class PhoneLoginActivity extends AppCompatActivity {
                                     loading.dismiss();
                                 Toast.makeText(PhoneLoginActivity.this,"Successful Login",Toast.LENGTH_LONG).show();
                                 SendUserToMainActivity();
+
                         }
                         else
                             {

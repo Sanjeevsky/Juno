@@ -61,6 +61,7 @@ public class SignupActivity extends AppCompatActivity {
                                             Toast.makeText(SignupActivity.this,"Account Created Successfully",Toast.LENGTH_LONG).show();
                                             Intent ques1Intent=new Intent(SignupActivity.this,ques1_activity.class);
                                             startActivity(ques1Intent);
+                                            finish();
                                         }
                                     }
                                 });
@@ -85,6 +86,7 @@ public class SignupActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent loginIntent=new Intent(SignupActivity.this,LoginActivity.class);
                 startActivity(loginIntent);
+                finish();
             }
         });
 
